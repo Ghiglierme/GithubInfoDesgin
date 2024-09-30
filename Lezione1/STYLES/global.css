@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'SF Compact Rounded';
+    src: url("../assets/fonts/SF-Compact-Rounded-Regular.otf");
+    font-weight: 400;
+}
+
+body{
+    margin: 0;
+    font-family: 'SF Compact Rounded', Helvetica, sans-serif;
+}

@@ -1,0 +1,36 @@
+nav{
+    background-color: rgb(46,79,133);
+    width: 90%;
+    padding: 15px 5%;
+}
+
+#navtop {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 0 0 36rem;
+}
+
+#navtop .con:hover {
+    background-color: rgb(247,148,29);
+    transition: 0.5s;
+} 
+
+#navtop a:hover {
+    color: rgb(247,148,29);
+    transition: 0.5s;
+} 
+
+@media screen and (max-width:900px) {
+    #navlinks a {
+        font-size: 0.8rem;  
+    }
+    #navtop .con {
+        font-size: 1rem;
+    }
+    nav img {
+        width: 268px;
+        height: auto;
+        transform: 0.1s;
+    }
+}

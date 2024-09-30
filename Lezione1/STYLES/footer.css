@@ -1,0 +1,116 @@
+footer {
+    background-color: rgb(46,79,133);
+    width: 90%;
+    padding: 60px 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+#footerleft{
+    width: 35%;
+    color: white;
+    
+}
+
+#footerleft p {
+    margin-top: 40px;
+    font-size: 18px;
+    
+}
+
+#footercenter{
+    width: 30%;
+    color: white;
+}
+#footercenter div{
+    margin: auto;
+    width: fit-content;
+    font-size: 25px;
+}
+#footercenter a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#footerright{
+    width: 35%;
+    color: white;
+    font-size: 25px;
+}
+
+#footerright a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.info img{
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-top: 20px;
+}
+
+.info a {
+    margin: auto 0;
+}
+
+
+@media screen and (max-width:900px) {
+    footer p {
+        font-size: 1rem;  
+    }
+    #footerleft p {
+        font-size: 0.8rem;
+    }
+    #footercenter a {
+        font-size: 1rem;
+    }
+    #footerright a {
+        font-size: 0.8rem;
+    }
+    footer img {
+        width: 268px;
+        height: auto;
+        transform: 0.1s;
+    }
+}
+
+@media screen and (max-width:700px) {
+    footer img {
+        width: 180px;
+        height: auto;
+        transform: 0.1s;
+    }
+    footer p {
+        font-size: 1rem;  
+    }
+    #footerleft p {
+        font-size: 0.8rem;
+    }
+    #footercenter a {
+        font-size: 0.8rem;
+    }
+    #footerright a {
+        font-size: 0.8rem;
+    }
+    .info img{
+        width: 15px;
+        height: 15px;
+        transform: 0.1s;
+    }
+}
