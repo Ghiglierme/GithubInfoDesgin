@@ -78,7 +78,9 @@ a {
 	padding: 0 30px 30px;
 	color: #fff;
     transition: transform 0.45s, top 0.4s;
+
     visibility: hidden;
+    z-index: 100;
     
 }
 .popup img{
